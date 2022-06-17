@@ -1,9 +1,9 @@
-FROM quay.io/fedora/fedora:33-x86_64
+FROM quay.io/fedora/fedora:36-x86_64
 
 LABEL name="webhook-proxy" \
       maintainer="xiaofwan@redhat.com" \
       vendor="Red Hat QE Section 1" \
-      version="1.0" \
+      version="1.1" \
       release="1" \
       summary="webhook proxy server" \
       description="A proxy server to fetch AWS SQS message repeatly" \
